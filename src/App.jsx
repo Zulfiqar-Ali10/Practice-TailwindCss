@@ -5,6 +5,7 @@ import { Header } from './assets/Components/Header';
 import { Footer } from './assets/Components/Footer';
 
 function App() {
+ 
   const students = [
     {
       name: "Ali",
@@ -59,6 +60,7 @@ function App() {
       rollNum: 112,
       isActive: true,
     },
+    
   ];
 
   return (

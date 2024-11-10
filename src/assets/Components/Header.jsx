@@ -17,14 +17,14 @@ export const Header = ({ students }) => {
                 </thead>
                 <tbody>
 
-                    {students.map((item, index) => (
+                    { students.map((item, index) => (
                         <tr className="text-center border-2" key={index}>
                             <td className="border-2 px-2 py-1">{item.name}</td>
                             <td className="border-2 px-2 py-1">{item.class}</td>
                             <td className="border-2 px-2 py-1">{item.rollNum}</td>
-                            <td className="border-2 px-2 py-1">{item.isActive ? 'True' : 'False'}</td>
+                            <td className="border-2 px-2 py-1">{item.isActive ? 'True       ' : 'False'}</td>
                         </tr>
-                    ))}
+                    )) }
                 </tbody>
             </table>
         </>
